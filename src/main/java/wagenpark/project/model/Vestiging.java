@@ -5,9 +5,9 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 public class Vestiging {
-    String plaats;
-    String manager;
-    ArrayList<Auto> autos;
+    private String plaats;
+    private String manager;
+    private ArrayList<Auto> autos;
 
     public Vestiging(String plaats, String manager) {
         this.plaats = plaats;
